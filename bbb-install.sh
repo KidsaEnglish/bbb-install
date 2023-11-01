@@ -411,6 +411,16 @@ main() {
   bbb-conf --check
 }
 
+wget -O /etc/bigbluebutton/bbb-html5.yml https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/bbb-html5.yml
+
+wget -O /var/www/bigbluebutton-default/assets/default.pdf https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/default.pdf
+
+wget -O /var/www/bigbluebutton-default/assets/favicon.ico https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/favicon.ico
+
+wget -O /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/welcome_kidsa.png https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/welcome_kidsa.png
+
+wget -O /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/thumbnails/welcome_kidsa.png https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/welcome_kidsa_thumb.png
+
 say() {
   echo "bbb-install: $1"
 }
