@@ -743,6 +743,11 @@ configure_HTML5() {
   wget -O /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/welcome_kidsa.png https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/welcome_kidsa.png
 
   wget -O /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/thumbnails/welcome_kidsa.png https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/welcome_kidsa_thumb.png
+
+  wget -O /usr/share/meteor/bundle/programs/web.browser/app/locales/pt.json https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/pt.json
+
+  wget -O /usr/share/meteor/bundle/programs/web.browser/app/locales/pt_BR.json https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/pt_BR.json
+  
   # Use Google's default STUN server
   if [ -n "$INTERNAL_IP" ]; then
    sed -i "s/[;]*externalIPv4=.*/externalIPv4=$IP/g"                   /etc/kurento/modules/kurento/WebRtcEndpoint.conf.ini
