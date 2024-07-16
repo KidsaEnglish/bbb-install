@@ -840,7 +840,7 @@
     "app.guest.missingSession": "Convidado sem sessão.",
     "app.guest.missingMeeting": "Reunião não existente.",
     "app.guest.meetingEnded": "Reunião encerrada.",
-    "app.guest.guestWait": "Aproveite enquanto espera, verifique sua conexão com a internet.<br> Uma boa conexão com a internet é muito importante para a sua aula.<br> Ela permite que você e o seu professor se escutem melhor, e até para que seu professor saiba que você já está pronto para entrar na sala.<br> Se sua conexão não estiver muito boa, você pode ficar mais perto do roteador da internet e depois atualizar a página.",
+    "app.guest.guestWait": "Por favor aguarde até que um moderador aprove a sua entrada.",
     "app.guest.guestDeny": "Convidado teve sua entrada negada.",
     "app.guest.seatWait": "Convidado aguardando uma vaga na reunião.",
     "app.guest.allow": "Convidado aprovado e sendo redirecionado para a sessão.",
