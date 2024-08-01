@@ -162,7 +162,7 @@ main() {
         check_coturn "$COTURN"
         ;;
       v)
-        VERSION=$OPTARG
+        VERSION="focal-270-2.7.10"
         ;;
 
       p)
