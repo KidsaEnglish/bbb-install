@@ -744,6 +744,14 @@ configure_HTML5() {
 
   wget -O /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/thumbnails/welcome_kidsa.png https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/welcome_kidsa_thumb.png
 
+  wget -O /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/kidsa_app_celular.jpg https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/kidsa_app_celular.jpg
+
+  wget -O /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/thumbnails/kidsa_app_celular.jpg https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/kidsa_app_celular_thumb.jpg
+
+  wget -O /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/kidsa_app_videos.jpg https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/kidsa_app_videos.jpg
+
+  wget -O /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/thumbnails/kidsa_app_videos.jpg https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/kidsa_app_videos_thumb.jpg
+
   wget -O /usr/share/meteor/bundle/programs/web.browser/app/locales/pt.json https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/pt.json
 
   wget -O /usr/share/meteor/bundle/programs/web.browser/app/locales/pt_BR.json https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/pt_BR.json
