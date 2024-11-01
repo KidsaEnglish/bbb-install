@@ -19,7 +19,5 @@ public:
     skipVideoPreviewOnFirstJoin: true
   virtualBackgrounds:
     fileNames:
-      - home.jpg
-      - coffeeshop.jpg
-      - board.jpg
-      - welcome_kidsa.png
+      - kidsa_app_celular.jpg
+      - kidsa_app_videos.jpg
