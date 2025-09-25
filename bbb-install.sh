@@ -752,6 +752,10 @@ configure_HTML5() {
 
   wget -O /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/thumbnails/kidsa_app_videos.png https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/kidsa_app_videos_thumb.png
 
+  wget -O /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/indique_ganhe.png https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/indique_ganhe.png
+
+  wget -O /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/thumbnails/indique_ganhe.png https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/indique_ganhe_thumb.png
+
   wget -O /usr/share/meteor/bundle/programs/web.browser/app/locales/pt.json https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/pt.json
 
   wget -O /usr/share/meteor/bundle/programs/web.browser/app/locales/pt_BR.json https://raw.githubusercontent.com/KidsaEnglish/bbb-install/master/assets/pt_BR.json
